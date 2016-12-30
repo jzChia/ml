@@ -1,0 +1,12 @@
+E:\vs_projects\MLearning\test\bin\Debug\test.exe
+E:\vs_projects\MLearning\test\bin\Debug\test.pdb
+E:\vs_projects\MLearning\test\bin\Debug\MLCommon.dll
+E:\vs_projects\MLearning\test\bin\Debug\NHibernate.dll
+E:\vs_projects\MLearning\test\bin\Debug\NHibernate.Mapping.Attributes.dll
+E:\vs_projects\MLearning\test\bin\Debug\Iesi.Collections.dll
+E:\vs_projects\MLearning\test\bin\Debug\MLCommon.pdb
+E:\vs_projects\MLearning\test\obj\x86\Debug\test.csprojResolveAssemblyReference.cache
+E:\vs_projects\MLearning\test\obj\x86\Debug\test.exe
+E:\vs_projects\MLearning\test\obj\x86\Debug\test.pdb
+E:\vs_projects\MLearning\test\bin\Debug\test.exe.config
+E:\vs_projects\MLearning\test\bin\Debug\Aspose.Cells.dll

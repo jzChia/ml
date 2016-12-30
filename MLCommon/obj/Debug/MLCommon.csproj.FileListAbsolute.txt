@@ -1,0 +1,12 @@
+E:\vs_projects\MLearning\MLCommon\bin\Debug\MLCommon.dll
+E:\vs_projects\MLearning\MLCommon\bin\Debug\MLCommon.pdb
+E:\vs_projects\MLearning\MLCommon\bin\Debug\BCrypt.dll
+E:\vs_projects\MLearning\MLCommon\bin\Debug\Iesi.Collections.dll
+E:\vs_projects\MLearning\MLCommon\bin\Debug\NHibernate.dll
+E:\vs_projects\MLearning\MLCommon\bin\Debug\NHibernate.Mapping.Attributes.dll
+E:\vs_projects\MLearning\MLCommon\obj\Debug\MLCommon.Properties.Resources.resources
+E:\vs_projects\MLearning\MLCommon\obj\Debug\MLCommon.csproj.GenerateResource.Cache
+E:\vs_projects\MLearning\MLCommon\obj\Debug\MLCommon.dll
+E:\vs_projects\MLearning\MLCommon\obj\Debug\MLCommon.pdb
+E:\vs_projects\MLearning\MLCommon\obj\Debug\MLCommon.dll.licenses
+E:\vs_projects\MLearning\MLCommon\obj\Debug\MLCommon.csprojResolveAssemblyReference.cache

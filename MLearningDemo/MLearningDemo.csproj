@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12DCEF9F-DD82-423E-B46D-7EEEEA38E36D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MLearningDemo</RootNamespace>
+    <AssemblyName>MLearningDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\packages\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v11.1, Version=11.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net40\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net40\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net40\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PanGu, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddModelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddModelForm.Designer.cs">
+      <DependentUpon>AddModelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalcModelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcModelForm.Designer.cs">
+      <DependentUpon>CalcModelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpressLocalizerHelper.cs" />
+    <Compile Include="AddFactorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFactorForm.Designer.cs">
+      <DependentUpon>AddFactorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FactorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FactorForm.Designer.cs">
+      <DependentUpon>FactorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FactorTreeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FactorTreeForm.Designer.cs">
+      <DependentUpon>FactorTreeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InitParaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InitParaForm.Designer.cs">
+      <DependentUpon>InitParaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeywodsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeywodsForm.Designer.cs">
+      <DependentUpon>KeywodsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CalcFactorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcFactorForm.Designer.cs">
+      <DependentUpon>CalcFactorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectFactorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFactorForm.Designer.cs">
+      <DependentUpon>SelectFactorForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddModelForm.resx">
+      <DependentUpon>AddModelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFactorForm.resx">
+      <DependentUpon>AddFactorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcModelForm.resx">
+      <DependentUpon>CalcModelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactorForm.resx">
+      <DependentUpon>FactorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactorTreeForm.resx">
+      <DependentUpon>FactorTreeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InitParaForm.resx">
+      <DependentUpon>InitParaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeywodsForm.resx">
+      <DependentUpon>KeywodsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="CalcFactorForm.resx">
+      <DependentUpon>CalcFactorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectFactorForm.resx">
+      <DependentUpon>SelectFactorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MLCommon\MLCommon.csproj">
+      <Project>{8350BA54-B0AE-4963-AE8F-F34929815514}</Project>
+      <Name>MLCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\userControls\userControls.csproj">
+      <Project>{49F1FB20-FACF-45A9-982F-45156D701899}</Project>
+      <Name>userControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="hibernate.cfg.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand_large_violet_15px_1065635_easyicon.net.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collapse_large_violet_15px_1065600_easyicon.net.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_cascade.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_tile_horizontal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_title_vertical.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_form.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyword.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factor%281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catalog.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\result_tree.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factor_calc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\model_calc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Factor_Add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\model_Add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_factor_add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_factor_search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_model_add.net.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
